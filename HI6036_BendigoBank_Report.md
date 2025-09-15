@@ -29,10 +29,7 @@ Gap drivers and implications
 
 3. Business Analysis Value Spectrum, Scope, and Approach (BABOK‑aligned)
 Value spectrum
-• Business outcomes: Improved regulatory compliance timeliness and accuracy; reduced fraud losses and false positives; shorter lending cycle times; higher NPS and retention; lower run‑costs; faster time‑to‑market.
-• Capability outcomes: Cloud platform and landing zone; enterprise data platform with governed, real‑time and batch analytics; AI/ML capability with MRM; API ecosystem; DevSecOps toolchain; observability and SRE.
-• Information outcomes: Trusted, lineage‑tracked datasets; privacy‑preserving access; continuous data quality.
-• Process outcomes: Digitised, STP‑ready lending; proactive fraud and risk oversight; automated regulatory reporting; knowledge‑enabled customer service.
+At the business level, the transformation targets measurable outcomes such as timely and accurate regulatory compliance, reduced fraud losses and false positives, shorter lending cycle times, higher NPS and retention, lower run‑costs, and faster time‑to‑market. Enabling these results requires specific capability outcomes, including a secure cloud platform and landing zone, an enterprise data platform that supports governed real‑time and batch analytics, an AI/ML capability governed by model risk management, an API ecosystem for decoupled integration, and a modern DevSecOps toolchain with comprehensive observability and SRE practices. Information outcomes focus on trusted, lineage‑tracked datasets with privacy‑preserving access and continuous data‑quality controls. Process outcomes translate these capabilities into digitised, STP‑ready lending journeys, proactive fraud and risk oversight, automated and auditable regulatory reporting, and knowledge‑enabled customer service.
 Scope
 • Core banking and payments: deposits, accounts, cards, and payment rails where integration or refactoring enables priority benefits.
 • Lending and mortgages: originations, underwriting, servicing, collections workflows.
@@ -40,12 +37,7 @@ Scope
 • Enterprise data and integration: EDP, data governance, streaming, APIs, and eventing.
 • Customer service operations: contact centre, digital channels, knowledge management, next‑best‑action orchestration.
 Approach mapped to BABOK knowledge areas
-• Business analysis planning and monitoring: Define BA governance, stakeholder map, requirements management plan, and cadence for reviews. Maintain a traceability matrix linking business goals to solution and transition requirements (BABOK: BAPM).
-• Elicitation and collaboration: Apply design thinking (empathise, define, ideate, prototype, test) with customers and internal users; run value‑stream mapping and service blueprint workshops; capture pain points, moments‑that‑matter, and measurable outcomes (BABOK: E&C).
-• Strategy analysis: Assess current state, define future state, analyse risks, and develop change strategy; quantify expected value and constraints (BABOK: SA).
-• Requirements analysis and design definition: Decompose epics into features and user stories; specify non‑functional requirements (security, privacy, resilience, performance, operability); produce domain and data models; define evaluation criteria (BABOK: RADD).
-• Requirements life cycle management: Baseline, version, and govern requirements; ensure bi‑directional traceability; manage changes (BABOK: RLCM).
-• Solution evaluation: Pilot and A/B test; measure KPIs such as STP rate, fraud hit‑rate, false positive ratio, report timeliness, and NPS; capture benefits realisation (BABOK: SE).
+The approach follows BABOK and begins with business analysis planning and monitoring to establish governance, a stakeholder map, a requirements management plan, and a review cadence, supported by a traceability matrix that links business goals to solution and transition requirements. Elicitation and collaboration use design‑thinking techniques with customers and internal users, complemented by value‑stream mapping and service‑blueprint workshops to surface pain points, moments that matter, and measurable outcomes. Strategy analysis assesses the current and desired future states, evaluates risks and constraints, and articulates a change strategy with quantified value. Requirements analysis and design definition decompose epics into features and user stories, specify non‑functional requirements (security, privacy, resilience, performance, operability), and develop domain and data models with clear evaluation criteria. Requirements life‑cycle management baselines and versions requirements, maintains bi‑directional traceability, and governs change. Solution evaluation executes pilots and A/B tests and measures KPIs such as STP rate, fraud hit‑rate and false‑positive ratio, report timeliness, and NPS, feeding benefits realisation tracking and investment decisions.
 Design‑thinking insights and personas
 • Retail customer seeking rapid approval and transparent status updates (reduce anxiety and effort).
 • Small‑business owner needing quick working‑capital decisions and simple document collection.
@@ -120,34 +112,9 @@ The detailed, editable Gantt spreadsheet is provided in the repository as HI6036
 Risk appetite and tolerance
 As a prudentially regulated bank, Bendigo Bank maintains low tolerance for regulatory breaches, data privacy incidents, and material service outages; moderate tolerance for controlled experimentation and pilot failures where customer harm is prevented; and explicit oversight of AI model risks.
 Top risks, impacts, and mitigations
-• Data privacy and security
-  – Impact: Breach, penalties, reputational damage.
-  – Mitigation: Zero‑trust architecture, encryption in transit/at rest, strong IAM and least privilege, data loss prevention, privacy‑by‑design, continuous monitoring and red‑team exercises. See [5], [6].
-• Regulatory non‑compliance
-  – Impact: Fines, remediation, constraints on operations.
-  – Mitigation: Early regulator engagement; control libraries mapped to obligations; automated evidence capture; lineage‑based regulatory reporting; independent testing and audit. See [1], [9].
-• AI model risk (bias, drift, instability)
-  – Impact: Unfair decisions, compliance breaches, customer harm.
-  – Mitigation: MRM framework with model inventories, differential testing, fairness/robustness checks, explainability, human‑in‑the‑loop for material decisions, continuous monitoring. See [2], [3], [5], [7].
-• Migration and change‑induced outages
-  – Impact: Customer impact, regulatory scrutiny.
-  – Mitigation: Blue/green and canary releases; chaos and game‑day testing; automated rollback; capacity and resilience tests; proven cutover playbooks.
-• Data quality and lineage gaps
-  – Impact: Incorrect decisions and reports; reconciliation burden.
-  – Mitigation: Data contracts, stewardship roles, automated quality checks, lineage tooling, golden‑source management.
-• Vendor lock‑in and portability
-  – Impact: Cost escalation, constrained flexibility.
-  – Mitigation: Open interfaces, containerisation, multi‑AZ/region deployment patterns, exit strategies and data egress plans, portable design patterns.
-• Change resistance and skills gaps
-  – Impact: Slow adoption; value erosion.
-  – Mitigation: Structured change programme, training and enablement, communities of practice, internal champions, outcome‑linked incentives.
-• Ethical and societal risks of AI
-  – Impact: Customer trust erosion.
-  – Mitigation: Ethics guidelines, transparency by default, appeal and remediation processes, stakeholder engagement. See [5].
+Data privacy and security breaches could trigger penalties and reputational damage; a zero‑trust architecture with encryption in transit and at rest, strong IAM and least privilege, data‑loss prevention, privacy‑by‑design, and continuous monitoring with red‑team exercises reduces this risk (see [5], [6]). Regulatory non‑compliance can lead to fines, remediation, and constraints on operations; early regulator engagement, control libraries mapped to obligations, automated evidence capture, lineage‑based regulatory reporting, and independent testing and audit strengthen assurance (see [1], [9]). AI model risk—including bias, drift, and instability—may produce unfair outcomes or compliance breaches; an MRM framework with model inventories, differential testing, fairness and robustness checks, explainability, human‑in‑the‑loop for material decisions, and continuous monitoring mitigates this exposure (see [2], [3], [5], [7]). Migration‑related outages can impact customers and attract regulatory scrutiny; blue/green and canary releases, chaos and game‑day testing, automated rollback, capacity and resilience tests, and proven cutover playbooks reduce disruption. Data‑quality and lineage gaps cause incorrect decisions and reporting and increase reconciliation burden; data contracts, stewardship roles, automated quality checks, lineage tooling, and golden‑source management address these causes. Vendor lock‑in and portability concerns raise cost and flexibility risks; open interfaces, containerisation, multi‑AZ/region patterns, exit strategies, data‑egress plans, and portable design patterns create options. Change resistance and skills gaps can slow adoption and erode value; a structured change programme with training and enablement, communities of practice, internal champions, and outcome‑linked incentives sustains adoption. Ethical and societal risks of AI can erode customer trust; explicit ethics guidelines, transparency by default, and robust appeal and remediation processes with stakeholder engagement are required (see [5]).
 Monitoring and assurance
-• KPIs and KRIs covering resilience (SLOs/SLA compliance), fraud metrics, STP, regulatory timeliness, model performance (AUC, drift, fairness metrics), and customer outcomes. Benefits realisation dashboards align with business cases and are reviewed per wave gate.
-• Three lines of defence: 1st line engineering/operations; 2nd line risk/compliance and model risk; 3rd line internal audit.
-• Independent validation for material models and periodic re‑approval; comprehensive documentation for regulators and auditors.
+Monitoring and assurance integrate outcome‑oriented KPIs with risk‑sensitive KRIs. Operational KPIs include customer measures such as time‑to‑yes in lending, service response times, and net promoter score, alongside efficiency indicators like straight‑through processing and unit‑cost. KRIs track resilience through SLO/SLA compliance, model performance via AUC stability, drift, and fairness metrics, fraud‑detection hit‑rates, and the timeliness and completeness of regulatory reporting. Oversight follows a three‑lines‑of‑defence model—delivery teams and operations in first line; independent risk, compliance, and model risk in second line; and internal audit in third line—with proportionate independent validation and periodic re‑approval for material models, supported by clear documentation for regulators and auditors. Benefits‑realisation dashboards align to business cases and are reviewed at each wave gate to sustain focus on measurable outcomes.
 
 7. Conclusion
 A cloud‑centred, AI‑enabled transformation is essential to Bendigo Bank’s competitiveness and resilience. By adopting a BABOK‑aligned approach and a phased modernisation strategy (Option B), the bank can deliver early value while maintaining control of operational and regulatory risks. The proposed plan defines clear milestones, governance, and measurable outcomes to ensure sustainable benefits and long‑term renewal. Evidence from financial‑services transformations shows that staged modernisation anchored on a governed enterprise data platform and API‑first decoupling reduces execution risk while accelerating value capture (Venters & Whitley, 2012 [11]; Reis et al., 2018 [12]). Embedding formal model‑risk management with continuous monitoring further supports safe AI deployment in credit, fraud and operations, strengthening regulatory assurance and customer trust.
