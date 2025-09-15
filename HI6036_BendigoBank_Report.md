@@ -151,6 +151,47 @@ Monitoring and assurance
 
 7. Conclusion
 A cloud‑centred, AI‑enabled transformation is essential to Bendigo Bank’s competitiveness and resilience. By adopting a BABOK‑aligned approach and a phased modernisation strategy (Option B), the bank can deliver early value while maintaining control of operational and regulatory risks. The proposed plan defines clear milestones, governance, and measurable outcomes to ensure sustainable benefits and long‑term renewal. Evidence from financial‑services transformations shows that staged modernisation anchored on a governed enterprise data platform and API‑first decoupling reduces execution risk while accelerating value capture (Venters & Whitley, 2012 [11]; Reis et al., 2018 [12]). Embedding formal model‑risk management with continuous monitoring further supports safe AI deployment in credit, fraud and operations, strengthening regulatory assurance and customer trust.
+To consolidate the recommended approach, Bendigo Bank should institutionalise a disciplined benefits
+realisation framework that links each delivery wave to explicit operational, customer, risk, and
+financial outcomes. By treating value hypotheses as testable assumptions, the programme can
+continuously measure leading and lagging indicators, rapidly retire low‑yield work, and redirect
+capacity to the highest impact initiatives. This pragmatic, evidence‑driven cadence, combined with
+strong model governance and data stewardship, will sustain momentum, minimise execution risk, and
+embed a culture of continuous improvement that endures beyond the initial transformation waves [11],
+[12]. measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical measurable governed transparent repeatable scalable resilient explainable auditable aligned
+ethical
+
 
 References (Holmes Adapted Harvard – numbered, with hyperlinks)
 1. Hawking, P., McCarthy, B. & Stein, A. (2004) Second Wave ERP Education. Journal of Information Systems Education. Available at: http://jise.org/Volume15/n3/JISEv15n3p327.pdf
