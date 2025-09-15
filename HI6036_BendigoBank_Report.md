@@ -111,6 +111,10 @@ High‑level Gantt (textual)
 • 9–18m: Digital lending STP features, MRM, regulatory automation PoCs.
 • 18–24m: Payments uplift, deposits/accounts refactoring, personalisation.
 • 24–30m: Migrations and decommission, scale‑out AI, benefits realisation.
+Figure 1: Programme Gantt Overview (Waves 0–4)
+![Programme Gantt – Waves 0–4](HI6036_Project_Gantt.png)
+
+The detailed, editable Gantt spreadsheet is provided in the repository as HI6036_Project_Gantt.xlsx.
 
 6. Risk Management
 Risk appetite and tolerance
