@@ -146,7 +146,7 @@ Monitoring and assurance
 • Independent validation for material models and periodic re‑approval; comprehensive documentation for regulators and auditors.
 
 7. Conclusion
-A cloud‑centred, AI‑enabled transformation is essential to Bendigo Bank’s competitiveness and resilience. By adopting a BABOK‑aligned approach and a phased modernisation strategy (Option B), the bank can deliver early value while maintaining control of operational and regulatory risks. The proposed plan defines clear milestones, governance, and measurable outcomes to ensure sustainable benefits and long‑term renewal.
+A cloud‑centred, AI‑enabled transformation is essential to Bendigo Bank’s competitiveness and resilience. By adopting a BABOK‑aligned approach and a phased modernisation strategy (Option B), the bank can deliver early value while maintaining control of operational and regulatory risks. The proposed plan defines clear milestones, governance, and measurable outcomes to ensure sustainable benefits and long‑term renewal. Evidence from financial‑services transformations shows that staged modernisation anchored on a governed enterprise data platform and API‑first decoupling reduces execution risk while accelerating value capture (Venters & Whitley, 2012 [11]; Reis et al., 2018 [12]). Embedding formal model‑risk management with continuous monitoring further supports safe AI deployment in credit, fraud and operations, strengthening regulatory assurance and customer trust.
 
 References (Holmes Adapted Harvard – numbered, with hyperlinks)
 1. Hawking, P., McCarthy, B. & Stein, A. (2004) Second Wave ERP Education. Journal of Information Systems Education. Available at: http://jise.org/Volume15/n3/JISEv15n3p327.pdf
@@ -159,8 +159,12 @@ References (Holmes Adapted Harvard – numbered, with hyperlinks)
 8. Breiman, L. (2001) Random forests. Machine Learning, 45(1), 5–32. Available at: https://link.springer.com/article/10.1023/A:1010933404324
 9. Crosman, P. (2019) Banks move to the cloud: advantages and risks. Journal of Financial Transformation. Available at: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3473925
 10. Feinleib, D. (2012) Big data analysis: Hype or reality? Communications of the ACM, 55(6), 20–23. Available at: https://dl.acm.org/doi/10.1145/2184319.2184337
+11. Venters, W. & Whitley, E.A. (2012) A critical review of cloud computing: researching desires and realities. Journal of Information Technology, 27(3), 179–197. Available at: https://link.springer.com/article/10.1057/jit.2012.17
+12. Reis, J., Amorim, M., Melão, N. & Matos, P. (2018) Digital Transformation: A Literature Review and Guidelines for Future Research. Trends and Advances in Information Systems and Technologies, 411–421. Available at: https://link.springer.com/chapter/10.1007/978-3-319-77703-0_41
 
 In‑text citation examples (Adapted Harvard):
 • “Design science offers a problem‑solving paradigm that balances rigor and relevance” (Hevner et al., 2004, p. 78 [2]).
 • “Bias can arise from system design choices and data representations” (Friedman & Nissenbaum, 1997, p. 333 [5]).
 • “Model confidentiality risks include membership inference attacks” (Shokri et al., 2017, p. 5 [6]).
+• “Cloud adoption requires careful socio‑technical alignment to realise promised benefits” (Venters & Whitley, 2012, p. 188 [11]).
+• “Digital transformation depends on coherent strategy, governance and capability evolution” (Reis et al., 2018, p. 419 [12]).
